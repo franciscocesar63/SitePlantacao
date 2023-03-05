@@ -2,15 +2,13 @@
   <div class="hello">
     <!-- <img src="../assets/atencao.png" width="5%" /><br> -->
     <img alt="Vue logo" src="../assets/logo.png" width="20%">
-
-    <h1>{{ msg }}</h1>
-    <p>
+    <h1 class="mt-3">{{ msg }}</h1>
+    <p class="">
       colocar umt texto aqui redirecionando para o formulário de inscrição
     </p>
     
     
-    <b-link ><router-link to="formulario" class="link-sucess">Acesse nosso formulário</router-link></b-link>
-    <b-button variant="danger">Button</b-button>
+    <b-link class="link-success fs-5" to="/formulario">Acesse nosso formulário</b-link>
 
   </div>
 </template>
@@ -19,7 +17,7 @@
 import Vue from 'vue';
 
 export default Vue.extend({
-  name: 'HelloWorld',
+  name: 'Inicio',
   props: {
     msg: String,
   },
@@ -28,8 +26,7 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-.hello{
-  color: aliceblue;
+h1{
+  font-weight: bold;
 }
-
 </style>

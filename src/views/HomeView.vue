@@ -1,7 +1,7 @@
 <template>
 
   <div class="home">
-    <HelloWorld msg="Site em Construção"/>
+    <Inicio msg="SITE EM CONSTRUÇÃO"/>
 
   </div>
 
@@ -10,20 +10,18 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+import Inicio from '@/components/Inicio.vue'; // @ is an alias to /src
 
 export default Vue.extend(
-    
 {
   name: 'HomeView',
   components: {
-    HelloWorld,
+    Inicio,
   },
 });
 </script>
 <style>
 body{
   background-color: black;
-  color: white;
 }
 </style>
