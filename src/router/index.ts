@@ -1,6 +1,11 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import QuemSomos from '../views/QuemSomos.vue'
+import OndeEstamos from '../views/OndeEstamos.vue'
+import CuidadoPastoral from '../views/CuidadoPastoral.vue'
+import SejaParceiro from '../views/SejaParceiro.vue'
+import Visitante from '../views/Visitante.vue'
 
 Vue.use(VueRouter)
 
@@ -13,22 +18,27 @@ const routes: Array<RouteConfig> = [
   {
     path: '/sobre',
     name: 'sobre',
-    component: HomeView
+    component: QuemSomos
   },
   {
     path: '/onde',
     name: 'onde',
-    component: HomeView
+    component: OndeEstamos
   },
   {
     path: '/cuidado',
     name: 'cuidado',
-    component: HomeView
+    component: CuidadoPastoral
   },
   {
     path: '/parceiro',
     name: 'parceiro',
-    component: HomeView
+    component: SejaParceiro
+  },
+  {
+    path: '/visitante',
+    name: 'visitante',
+    component: Visitante
   },
   // {
   //   path: '/about',

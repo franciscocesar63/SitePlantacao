@@ -16,13 +16,14 @@
 import Vue from 'vue';
 import Navbar from '@/components/NavBar.vue'; // @ is an alias to /src
 
-export default Vue.extend(
-  {
+export default Vue.extend(  
+{
     name: 'App',
     components: {
       Navbar,
     },
   });
+  document.title = "Igreja Batista Esperança";
 </script>
 
 <style>

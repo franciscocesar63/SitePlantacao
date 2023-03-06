@@ -1,8 +1,9 @@
 <template>
-  <div>
+  <div class="mb-5">
     <div>
       <b-navbar type="dark" variant="dark">
         <b-navbar-nav>
+          <b-nav-item to="/"><img src="@/assets/logoArvore.png" width="30px"></b-nav-item>
           <b-nav-item to="/">Início</b-nav-item>
           <b-nav-item to="/sobre">Quem Somos</b-nav-item>
           <b-nav-item to="/onde">Onde Estamos</b-nav-item>

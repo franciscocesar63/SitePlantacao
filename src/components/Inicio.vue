@@ -3,12 +3,12 @@
     <!-- <img src="../assets/atencao.png" width="5%" /><br> -->
     <img alt="Vue logo" src="../assets/logo.png" width="20%">
     <h1 class="mt-3">{{ msg }}</h1>
-    <p class="">
+    <!-- <p class="">
       colocar umt texto aqui redirecionando para o formulário de inscrição
-    </p>
+    </p> -->
     
     
-    <b-link class="link-success fs-5" to="/formulario">Acesse nosso formulário</b-link>
+    <b-link class="link-success fs-5" href="https://esperancanvp.com.br/visitante">Acesse nosso formulário</b-link>
 
   </div>
 </template>
@@ -28,5 +28,6 @@ export default Vue.extend({
 <style scoped>
 h1{
   font-weight: bold;
+  color: white;
 }
 </style>
